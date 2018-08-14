@@ -20,8 +20,8 @@ The r script performs the following task up on execution:
 6. Extracts the variables from "harDataset" that are associated with the mean and standard deviation of the measurements (Assignment-2)
 7. Replaces the activity labels in the second column of "harDataset" with their associated activity names using the data loaded form "activity_labels.txt". (Assignment-3)
 8. Revises the variables names to make them tidy and self descriptive by performing the following tasks 
-    (a) Replacing letter "t" with "Time" [gsub("^t", "Time", names(harDataset))]
-    (b) Replacing letter "f" with "Frequency" [gsub("^[Ff]", "Frequency", names(harDataset))]
+    -(a) Replacing letter "t" with "Time" [gsub("^t", "Time", names(harDataset))]
+    -(b) Replacing letter "f" with "Frequency" [gsub("^[Ff]", "Frequency", names(harDataset))]
     (c) Replacing "acc" with "Acceleration" [gsub("[Aa]cc", "Acceleration", names(harDataset))] 
     (d) Replacing "gyro" with "Gyroscope" [gsub("[Gg]yro", "Gyroscope", names(harDataset))]
     (e) Replacing "mag" with "Magnitude" [gsub("[Mm]ag", "Magnitude", names(harDataset))]
