@@ -55,19 +55,19 @@ harDataset <- rename(harDataset, ActivityName = activitylabels)
 ## ====================== ASSIGNMENT PART (4) ====================== 
 
 ## Revising the variable names to be descriptive and tidy
-colnames(harDataset)<- gsub("^t", "Time", names(harDataset))
-colnames(harDataset)<- gsub("^[Ff]", "Frequency", names(harDataset))
-colnames(harDataset)<- gsub("[Aa]cc", "Acceleration", names(harDataset))
-colnames(harDataset)<- gsub("[Gg]yro", "Gyroscope", names(harDataset))
-colnames(harDataset)<- gsub("[Mm]ag", "Magnitude", names(harDataset))
-colnames(harDataset)<- gsub("[Jj]erk", "Jerk", names(harDataset))
-colnames(harDataset)<- gsub("angle", "Angle", names(harDataset))
-colnames(harDataset)<- gsub("gravity", "Gravity", names(harDataset))
-colnames(harDataset)<- gsub("mean", "Mean", names(harDataset))
-colnames(harDataset)<- gsub("[Ss]td", "StandardDeviation", names(harDataset))
-colnames(harDataset)<- gsub("[^a-zA-Z0-9]", "", names(harDataset))
-colnames(harDataset)<- gsub("subject", "Subject", names(harDataset))
-colnames(harDataset)<- gsub("BodyBody", "Body", names(harDataset))
+colnames(harDataset) <- gsub("^t", "Time", names(harDataset))
+colnames(harDataset) <- gsub("^[Ff]", "Frequency", names(harDataset))
+colnames(harDataset) <- gsub("[Aa]cc", "Acceleration", names(harDataset))
+colnames(harDataset) <- gsub("[Gg]yro", "Gyroscope", names(harDataset))
+colnames(harDataset) <- gsub("[Mm]ag", "Magnitude", names(harDataset))
+colnames(harDataset) <- gsub("[Jj]erk", "Jerk", names(harDataset))
+colnames(harDataset) <- gsub("angle", "Angle", names(harDataset))
+colnames(harDataset) <- gsub("gravity", "Gravity", names(harDataset))
+colnames(harDataset) <- gsub("mean", "Mean", names(harDataset))
+colnames(harDataset) <- gsub("[Ss]td", "StandardDeviation", names(harDataset))
+colnames(harDataset) <- gsub("[^a-zA-Z0-9]", "", names(harDataset))
+colnames(harDataset) <- gsub("subject", "Subject", names(harDataset))
+colnames(harDataset) <- gsub("BodyBody", "Body", names(harDataset))
 
 ## ====================== ASSIGNMENT PART (5) ====================== 
 
