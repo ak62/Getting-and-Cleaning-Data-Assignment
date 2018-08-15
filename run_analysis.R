@@ -57,7 +57,7 @@ harDataset <- rename(harDataset, ActivityName = activitylabels)
 ## Revising the variable names to be descriptive and tidy
 colnames(harDataset) <- gsub("^t", "Time", names(harDataset))
 colnames(harDataset) <- gsub("^[Ff]", "Frequency", names(harDataset))
-colnames(harDataset) <- gsub("[Aa]cc", "Accelerometer", names(harDataset))
+colnames(harDataset) <- gsub("[Aa]cc", "Acceleration", names(harDataset))
 colnames(harDataset) <- gsub("[Gg]yro", "Gyroscope", names(harDataset))
 colnames(harDataset) <- gsub("[Mm]ag", "Magnitude", names(harDataset))
 colnames(harDataset) <- gsub("[Jj]erk", "Jerk", names(harDataset))
