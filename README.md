@@ -25,7 +25,7 @@ The r script performs the following task up on execution:
     
     (b) Replacing letter "f" with "Frequency" [gsub("^[Ff]", "Frequency", names(harDataset))]
     
-    (c) Replacing "acc" with "Acceleration" [gsub("[Aa]cc", "Acceleration", names(harDataset))] 
+    (c) Replacing "acc" with "Accelerometer" [gsub("[Aa]cc", "Accelerometer", names(harDataset))] 
     
     (d) Replacing "gyro" with "Gyroscope" [gsub("[Gg]yro", "Gyroscope", names(harDataset))]
     
